@@ -1,0 +1,93 @@
+ body {
+     font-family: 'Space Grotesk', sans-serif;
+    }
+
+ p,
+ li {
+    /* font-style: italic; */
+    line-height: 1.68;
+letter-spacing: 0.05px;
+    word-spacing: 0.05px;
+color: #4d4d4d; 
+}
+
+ li{
+    margin: 10px 0;
+ }
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+color: #1e1e1e; 
+ }
+
+/* X-Small devices (portrait phones, less than 576px) */
+    @media (min-width: 0px) {
+        p,li{
+            font-size: 12px;
+     }
+
+     .container{
+        max-width: 90%;      
+     }
+    }
+
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        p,
+            li {
+                font-size: 12px;
+            }
+        
+            .container {
+                max-width: 90%;
+            }
+    }
+
+    /*  Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        p,
+            li {
+                font-size: 18px;
+            }
+        
+            .container {
+                max-width: 80%;
+            }
+    }
+
+    /*  Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        p,
+            li {
+                font-size: 16px;
+            }
+        
+            .container {
+                max-width: 70%;
+            }
+    }
+
+    /*  X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        p,
+            li {
+                font-size: 14px;
+            }
+        
+            .container {
+                max-width: 60%;
+            }
+    }
+
+    /*  XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {}
+
